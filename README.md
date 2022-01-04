@@ -88,5 +88,5 @@ void onStart() {
 
 ## Warning
 
-The code will executed in isolated process, you can't share reference between UI and Service.
+The code will be executed in isolated process, you can't share reference between UI and Service.
 Use `sendData` and `onDataReceived` to communicate between service and UI.
